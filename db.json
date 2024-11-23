@@ -1,9 +1,312 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "municipios": [
+    {
+      "id": 1,
+      "nome": "Salvador",
+      "populacao": 2872347,
+      "idhm": 0.759,
+      "mortalidade_infantil": 15.3,
+      "num_estabelecimentos_saude": 1200,
+      "internacoes_diarreia": 250,
+      "gastos_publicos": 2000000000
+    },
+    {
+      "id": 2,
+      "nome": "Feira de Santana",
+      "populacao": 619609,
+      "idhm": 0.712,
+      "mortalidade_infantil": 18.1,
+      "num_estabelecimentos_saude": 400,
+      "internacoes_diarreia": 150,
+      "gastos_publicos": 800000000
+    },
+    {
+      "id": 3,
+      "nome": "Vitória da Conquista",
+      "populacao": 341128,
+      "idhm": 0.678,
+      "mortalidade_infantil": 17.5,
+      "num_estabelecimentos_saude": 300,
+      "internacoes_diarreia": 100,
+      "gastos_publicos": 600000000
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "doencas": [
+    {
+      "id": 1,
+      "nome": "COVID-19",
+      "municipio_id": 1,
+      "casos": 150000,
+      "obitos": 4000,
+      "historico": [
+        {"ano": 2020, "casos": 60000, "obitos": 1500},
+        {"ano": 2021, "casos": 90000, "obitos": 2500}
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Gripe",
+      "municipio_id": 1,
+      "casos": 50000,
+      "obitos": 200,
+      "historico": [
+        {"ano": 2020, "casos": 20000, "obitos": 80},
+        {"ano": 2021, "casos": 30000, "obitos": 120}
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Diabetes",
+      "municipio_id": 2,
+      "casos": 30000,
+      "obitos": 500,
+      "historico": [
+        {"ano": 2020, "casos": 12000, "obitos": 200},
+        {"ano": 2021, "casos": 18000, "obitos": 300}
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Hipertensão",
+      "municipio_id": 2,
+      "casos": 45000,
+      "obitos": 700,
+      "historico": [
+        {"ano": 2020, "casos": 18000, "obitos": 280},
+        {"ano": 2021, "casos": 27000, "obitos": 420}
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "AVC",
+      "municipio_id": 3,
+      "casos": 15000,
+      "obitos": 1000,
+      "historico": [
+        {"ano": 2020, "casos": 6000, "obitos": 400},
+        {"ano": 2021, "casos": 9000, "obitos": 600}
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Alzheimer",
+      "municipio_id": 3,
+      "casos": 8000,
+      "obitos": 300,
+      "historico": [
+        {"ano": 2020, "casos": 3200, "obitos": 120},
+        {"ano": 2021, "casos": 4800, "obitos": 180}
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Câncer",
+      "municipio_id": 1,
+      "casos": 20000,
+      "obitos": 1500,
+      "historico": [
+        {"ano": 2020, "casos": 8000, "obitos": 600},
+        {"ano": 2021, "casos": 12000, "obitos": 900}
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Dengue",
+      "municipio_id": 1,
+      "casos": 10000,
+      "obitos": 50,
+      "historico": [
+        {"ano": 2020, "casos": 4000, "obitos": 20},
+        {"ano": 2021, "casos": 6000, "obitos": 30}
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Zika",
+      "municipio_id": 2,
+      "casos": 5000,
+      "obitos": 10,
+      "historico": [
+        {"ano": 2020, "casos": 2000, "obitos": 4},
+        {"ano": 2021, "casos": 3000, "obitos": 6}
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Chikungunya",
+      "municipio_id": 3,
+      "casos": 7000,
+      "obitos": 20,
+      "historico": [
+        {"ano": 2020, "casos": 2800, "obitos": 8},
+        {"ano": 2021, "casos": 4200, "obitos": 12}
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Tuberculose",
+      "municipio_id": 1,
+      "casos": 3000,
+      "obitos": 100,
+      "historico": [
+        {"ano": 2020, "casos": 1200, "obitos": 40},
+        {"ano": 2021, "casos": 1800, "obitos": 60}
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "HIV/AIDS",
+      "municipio_id": 2,
+      "casos": 4000,
+      "obitos": 200,
+      "historico": [
+        {"ano": 2020, "casos": 1600, "obitos": 80},
+        {"ano": 2021, "casos": 2400, "obitos": 120}
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Hepatite",
+      "municipio_id": 3,
+      "casos": 2500,
+      "obitos": 50,
+      "historico": [
+        {"ano": 2020, "casos": 1000, "obitos": 20},
+        {"ano": 2021, "casos": 1500, "obitos": 30}
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Malária",
+      "municipio_id": 1,
+      "casos": 2000,
+      "obitos": 30,
+      "historico": [
+        {"ano": 2020, "casos": 800, "obitos": 10},
+        {"ano": 2021, "casos": 1200, "obitos": 20}
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Febre Amarela",
+      "municipio_id": 2,
+      "casos": 1500,
+      "obitos": 40,
+      "historico": [
+        {"ano": 2020, "casos": 600, "obitos": 15},
+        {"ano": 2021, "casos": 900, "obitos": 25}
+      ]
+    }
   ],
-  "profile": { "name": "typicode" }
+  "atividades": [
+    {
+      "id": 1,
+      "municipio_id": 1,
+      "nome": "Campanha de Vacinação COVID-19",
+      "data": "2023-01-15",
+      "descricao": "Vacinação em massa contra COVID-19"
+    },
+    {
+      "id": 2,
+      "municipio_id": 2,
+      "nome": "Feira de Saúde",
+      "data": "2023-02-20",
+      "descricao": "Evento com diversas atividades de saúde pública"
+    },
+    {
+      "id": 3,
+      "municipio_id": 3,
+      "nome": "Campanha de Prevenção ao Diabetes",
+      "data": "2023-03-10",
+      "descricao": "Ações de conscientização e prevenção ao diabetes"
+    },
+    {
+      "id": 4,
+      "municipio_id": 1,
+      "nome": "Semana de Combate à Dengue",
+      "data": "2023-04-05",
+      "descricao": "Ações de combate ao mosquito Aedes aegypti"
+    },
+    {
+      "id": 5,
+      "municipio_id": 2,
+      "nome": "Palestra sobre Hipertensão",
+      "data": "2023-05-15",
+      "descricao": "Palestra educativa sobre prevenção e tratamento da hipertensão"
+    },
+    {
+      "id": 6,
+      "municipio_id": 3,
+      "nome": "Mutirão de Testes de HIV",
+      "data": "2023-06-20",
+      "descricao": "Realização de testes rápidos de HIV"
+    },
+    {
+      "id": 7,
+      "municipio_id": 1,
+      "nome": "Campanha de Vacinação contra Gripe",
+      "data": "2023-07-10",
+      "descricao": "Vacinação contra gripe para grupos prioritários"
+    },
+    {
+      "id": 8,
+      "municipio_id": 2,
+      "nome": "Semana de Prevenção à Tuberculose",
+      "data": "2023-08-15",
+      "descricao": "Ações de conscientização e prevenção à tuberculose"
+    },
+    {
+      "id": 9,
+      "municipio_id": 3,
+      "nome": "Palestra sobre Alzheimer",
+      "data": "2023-09-10",
+      "descricao": "Palestra educativa sobre Alzheimer e cuidados com pacientes"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao.silva@example.com",
+      "telefone": "+5511999999999",
+      "municipio_id": 1,
+      "preferencias_alertas": ["COVID-19", "Dengue"]
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@example.com",
+      "telefone": "+5511988888888",
+      "municipio_id": 2,
+      "preferencias_alertas": ["Diabetes", "Hipertensão"]
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Souza",
+      "email": "carlos.souza@example.com",
+      "telefone": "+5511977777777",
+      "municipio_id": 3,
+      "preferencias_alertas": ["AVC", "Alzheimer"]
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "mensagem": "Novo surto de Dengue em Salvador. Tome precauções!",
+      "data_envio": "2023-01-10"
+    },
+    {
+      "id": 2,
+      "usuario_id": 2,
+      "mensagem": "Campanha de Prevenção ao Diabetes em Feira de Santana. Participe!",
+      "data_envio": "2023-02-05"
+    },
+    {
+      "id": 3,
+      "usuario_id": 3,
+      "mensagem": "Palestra sobre Alzheimer em Vitória da Conquista. Não perca!",
+      "data_envio": "2023-03-01"
+    }
+  ]
 }
