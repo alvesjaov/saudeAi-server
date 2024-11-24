@@ -324,8 +324,7 @@
       "internacoes_diarreia": 170,
       "gastos_publicos": 1700000000
     }
-  ]
-},
+  ],
 {
   "doencas": [
     {
@@ -493,8 +492,7 @@
         {"ano": 2021, "casos": 900, "obitos": 25}
       ]
     }
-  ]
-},
+  ],
 {
   "atividades": [
     {
@@ -560,8 +558,7 @@
       "data": "2023-09-10",
       "descricao": "Palestra educativa sobre Alzheimer e cuidados com pacientes"
     }
-  ]
-},
+  ],
 {
   "notificacoes": [
     {
