@@ -3,6 +3,8 @@
     {
       "id": 1,
       "nome": "Salvador",
+      "estado": "Bahia",
+      "regiao": "Nordeste",
       "populacao": 2872347,
       "idhm": 0.759,
       "mortalidade_infantil": 15.3,
@@ -13,6 +15,8 @@
     {
       "id": 2,
       "nome": "Feira de Santana",
+      "estado": "Bahia",
+      "regiao": "Nordeste",
       "populacao": 619609,
       "idhm": 0.712,
       "mortalidade_infantil": 18.1,
@@ -23,14 +27,306 @@
     {
       "id": 3,
       "nome": "Vitória da Conquista",
+      "estado": "Bahia",
+      "regiao": "Nordeste",
       "populacao": 341128,
       "idhm": 0.678,
       "mortalidade_infantil": 17.5,
       "num_estabelecimentos_saude": 300,
       "internacoes_diarreia": 100,
       "gastos_publicos": 600000000
+    },
+    {
+      "id": 4,
+      "nome": "São Paulo",
+      "estado": "São Paulo",
+      "regiao": "Sudeste",
+      "populacao": 12325232,
+      "idhm": 0.805,
+      "mortalidade_infantil": 12.4,
+      "num_estabelecimentos_saude": 5000,
+      "internacoes_diarreia": 500,
+      "gastos_publicos": 5000000000
+    },
+    {
+      "id": 5,
+      "nome": "Rio de Janeiro",
+      "estado": "Rio de Janeiro",
+      "regiao": "Sudeste",
+      "populacao": 6747815,
+      "idhm": 0.799,
+      "mortalidade_infantil": 13.2,
+      "num_estabelecimentos_saude": 3000,
+      "internacoes_diarreia": 400,
+      "gastos_publicos": 4000000000
+    },
+    {
+      "id": 6,
+      "nome": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "regiao": "Sudeste",
+      "populacao": 2521564,
+      "idhm": 0.810,
+      "mortalidade_infantil": 11.8,
+      "num_estabelecimentos_saude": 2000,
+      "internacoes_diarreia": 300,
+      "gastos_publicos": 3000000000
+    },
+    {
+      "id": 7,
+      "nome": "Curitiba",
+      "estado": "Paraná",
+      "regiao": "Sul",
+      "populacao": 1963726,
+      "idhm": 0.823,
+      "mortalidade_infantil": 10.5,
+      "num_estabelecimentos_saude": 1500,
+      "internacoes_diarreia": 200,
+      "gastos_publicos": 2500000000
+    },
+    {
+      "id": 8,
+      "nome": "Porto Alegre",
+      "estado": "Rio Grande do Sul",
+      "regiao": "Sul",
+      "populacao": 1484941,
+      "idhm": 0.805,
+      "mortalidade_infantil": 11.2,
+      "num_estabelecimentos_saude": 1200,
+      "internacoes_diarreia": 180,
+      "gastos_publicos": 2200000000
+    },
+    {
+      "id": 9,
+      "nome": "Florianópolis",
+      "estado": "Santa Catarina",
+      "regiao": "Sul",
+      "populacao": 508826,
+      "idhm": 0.847,
+      "mortalidade_infantil": 9.5,
+      "num_estabelecimentos_saude": 800,
+      "internacoes_diarreia": 100,
+      "gastos_publicos": 1500000000
+    },
+    {
+      "id": 10,
+      "nome": "Brasília",
+      "estado": "Distrito Federal",
+      "regiao": "Centro-Oeste",
+      "populacao": 3055149,
+      "idhm": 0.824,
+      "mortalidade_infantil": 10.8,
+      "num_estabelecimentos_saude": 2500,
+      "internacoes_diarreia": 300,
+      "gastos_publicos": 3500000000
+    },
+    {
+      "id": 11,
+      "nome": "Goiânia",
+      "estado": "Goiás",
+      "regiao": "Centro-Oeste",
+      "populacao": 1536097,
+      "idhm": 0.799,
+      "mortalidade_infantil": 12.0,
+      "num_estabelecimentos_saude": 1000,
+      "internacoes_diarreia": 150,
+      "gastos_publicos": 2000000000
+    },
+    {
+      "id": 12,
+      "nome": "Campo Grande",
+      "estado": "Mato Grosso do Sul",
+      "regiao": "Centro-Oeste",
+      "populacao": 906092,
+      "idhm": 0.784,
+      "mortalidade_infantil": 13.5,
+      "num_estabelecimentos_saude": 700,
+      "internacoes_diarreia": 120,
+      "gastos_publicos": 1800000000
+    },
+    {
+      "id": 13,
+      "nome": "Cuiabá",
+      "estado": "Mato Grosso",
+      "regiao": "Centro-Oeste",
+      "populacao": 618124,
+      "idhm": 0.785,
+      "mortalidade_infantil": 14.0,
+      "num_estabelecimentos_saude": 600,
+      "internacoes_diarreia": 110,
+      "gastos_publicos": 1600000000
+    },
+    {
+      "id": 14,
+      "nome": "Manaus",
+      "estado": "Amazonas",
+      "regiao": "Norte",
+      "populacao": 2219580,
+      "idhm": 0.737,
+      "mortalidade_infantil": 18.0,
+      "num_estabelecimentos_saude": 1500,
+      "internacoes_diarreia": 250,
+      "gastos_publicos": 2500000000
+    },
+    {
+      "id": 15,
+      "nome": "Belém",
+      "estado": "Pará",
+      "regiao": "Norte",
+      "populacao": 1499641,
+      "idhm": 0.746,
+      "mortalidade_infantil": 17.5,
+      "num_estabelecimentos_saude": 1200,
+      "internacoes_diarreia": 200,
+      "gastos_publicos": 2200000000
+    },
+    {
+      "id": 16,
+      "nome": "Porto Velho",
+      "estado": "Rondônia",
+      "regiao": "Norte",
+      "populacao": 539354,
+      "idhm": 0.736,
+      "mortalidade_infantil": 19.0,
+      "num_estabelecimentos_saude": 800,
+      "internacoes_diarreia": 150,
+      "gastos_publicos": 1500000000
+    },
+    {
+      "id": 17,
+      "nome": "Boa Vista",
+      "estado": "Roraima",
+      "regiao": "Norte",
+      "populacao": 419652,
+      "idhm": 0.752,
+      "mortalidade_infantil": 16.5,
+      "num_estabelecimentos_saude": 600,
+      "internacoes_diarreia": 100,
+      "gastos_publicos": 1200000000
+    },
+    {
+      "id": 18,
+      "nome": "Palmas",
+      "estado": "Tocantins",
+      "regiao": "Norte",
+      "populacao": 306296,
+      "idhm": 0.788,
+      "mortalidade_infantil": 14.8,
+      "num_estabelecimentos_saude": 500,
+      "internacoes_diarreia": 90,
+      "gastos_publicos": 1000000000
+    },
+    {
+      "id": 19,
+      "nome": "Macapá",
+      "estado": "Amapá",
+      "regiao": "Norte",
+      "populacao": 512902,
+      "idhm": 0.733,
+      "mortalidade_infantil": 18.2,
+      "num_estabelecimentos_saude": 700,
+      "internacoes_diarreia": 130,
+      "gastos_publicos": 1400000000
+    },
+    {
+      "id": 20,
+      "nome": "Rio Branco",
+      "estado": "Acre",
+      "regiao": "Norte",
+      "populacao": 407319,
+      "idhm": 0.727,
+      "mortalidade_infantil": 19.5,
+      "num_estabelecimentos_saude": 600,
+      "internacoes_diarreia": 120,
+      "gastos_publicos": 1300000000
+    },
+    {
+      "id": 21,
+      "nome": "Fortaleza",
+      "estado": "Ceará",
+      "regiao": "Nordeste",
+      "populacao": 2686612,
+      "idhm": 0.754,
+      "mortalidade_infantil": 15.0,
+      "num_estabelecimentos_saude": 2000,
+      "internacoes_diarreia": 300,
+      "gastos_publicos": 3000000000
+    },
+    {
+      "id": 22,
+      "nome": "Recife",
+      "estado": "Pernambuco",
+      "regiao": "Nordeste",
+      "populacao": 1653461,
+      "idhm": 0.772,
+      "mortalidade_infantil": 14.5,
+      "num_estabelecimentos_saude": 1500,
+      "internacoes_diarreia": 250,
+      "gastos_publicos": 2500000000
+    },
+    {
+      "id": 23,
+      "nome": "Natal",
+      "estado": "Rio Grande do Norte",
+      "regiao": "Nordeste",
+      "populacao": 884122,
+      "idhm": 0.763,
+      "mortalidade_infantil": 16.0,
+      "num_estabelecimentos_saude": 1000,
+      "internacoes_diarreia": 200,
+      "gastos_publicos": 2000000000
+    },
+    {
+      "id": 24,
+      "nome": "João Pessoa",
+      "estado": "Paraíba",
+      "regiao": "Nordeste",
+      "populacao": 817511,
+      "idhm": 0.763,
+      "mortalidade_infantil": 15.8,
+      "num_estabelecimentos_saude": 900,
+      "internacoes_diarreia": 180,
+      "gastos_publicos": 1800000000
+    },
+    {
+      "id": 25,
+      "nome": "Maceió",
+      "estado": "Alagoas",
+      "regiao": "Nordeste",
+      "populacao": 1029129,
+      "idhm": 0.721,
+      "mortalidade_infantil": 17.0,
+      "num_estabelecimentos_saude": 1100,
+      "internacoes_diarreia": 220,
+      "gastos_publicos": 2200000000
+    },
+    {
+      "id": 26,
+      "nome": "Aracaju",
+      "estado": "Sergipe",
+      "regiao": "Nordeste",
+      "populacao": 657013,
+      "idhm": 0.770,
+      "mortalidade_infantil": 14.2,
+      "num_estabelecimentos_saude": 800,
+      "internacoes_diarreia": 160,
+      "gastos_publicos": 1600000000
+    },
+    {
+      "id": 27,
+      "nome": "Teresina",
+      "estado": "Piauí",
+      "regiao": "Nordeste",
+      "populacao": 868075,
+      "idhm": 0.751,
+      "mortalidade_infantil": 16.8,
+      "num_estabelecimentos_saude": 900,
+      "internacoes_diarreia": 170,
+      "gastos_publicos": 1700000000
     }
-  ],
+  ]
+},
+{
   "doencas": [
     {
       "id": 1,
@@ -197,7 +493,9 @@
         {"ano": 2021, "casos": 900, "obitos": 25}
       ]
     }
-  ],
+  ]
+},
+{
   "atividades": [
     {
       "id": 1,
@@ -262,33 +560,9 @@
       "data": "2023-09-10",
       "descricao": "Palestra educativa sobre Alzheimer e cuidados com pacientes"
     }
-  ],
-  "usuarios": [
-    {
-      "id": 1,
-      "nome": "João Silva",
-      "email": "joao.silva@example.com",
-      "telefone": "+5511999999999",
-      "municipio_id": 1,
-      "preferencias_alertas": ["COVID-19", "Dengue"]
-    },
-    {
-      "id": 2,
-      "nome": "Maria Oliveira",
-      "email": "maria.oliveira@example.com",
-      "telefone": "+5511988888888",
-      "municipio_id": 2,
-      "preferencias_alertas": ["Diabetes", "Hipertensão"]
-    },
-    {
-      "id": 3,
-      "nome": "Carlos Souza",
-      "email": "carlos.souza@example.com",
-      "telefone": "+5511977777777",
-      "municipio_id": 3,
-      "preferencias_alertas": ["AVC", "Alzheimer"]
-    }
-  ],
+  ]
+},
+{
   "notificacoes": [
     {
       "id": 1,
